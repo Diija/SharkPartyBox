@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+    --padding-small: 0.25rem;
+    --padding-medium: 0.5rem;
+    --padding-large: 1rem;
+    
+    --gap-small: 0.25rem;
+    --gap-medium: 0.5rem;
+    --gap-large: 1rem;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}

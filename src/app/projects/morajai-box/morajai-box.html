@@ -1,0 +1,11 @@
+<div class="morajai-box-page">
+    <div class="morajai-box-container">
+        <div class="game-box">
+            <div class="grid">
+                @for (piece of morajaiBox.grid; let index = $index; track $index) {
+                    <div class="piece" [class]="piece.name.toLocaleLowerCase()" (click)="onPieceClick(index)"></div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

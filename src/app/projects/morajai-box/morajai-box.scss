@@ -1,0 +1,53 @@
+.morajai-box-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    .morajai-box-container {
+        .game-box {
+            width: 100%;
+            height: 100%;
+
+            .grid {
+                width: 100%;
+                height: 100%;
+
+                display: grid;
+                grid-template-columns: repeat(3, 10rem);
+                grid-template-rows: repeat(3, 10rem);
+                gap: var(--gap-small);
+
+                .piece {
+                    &.gray {
+                        background-color: gray;
+                    }
+                    &.white {
+                        background-color: whitesmoke;
+                    }
+                    &.black {
+                        background-color: #111;
+                    }
+                    &.red {
+                        background-color: red;
+                    }
+                    &.yellow {
+                        background-color: yellow;
+                    }
+                    &.purple {
+                        background-color: purple;
+                    }
+                    &.green {
+                        background-color: green;
+                    }
+                    &.pink {
+                        background-color: pink;
+                    }
+                    &.orange {
+                        background-color: orange;
+                    }
+                }
+            }
+        }
+    }
+}
